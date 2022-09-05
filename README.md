@@ -9,7 +9,7 @@ A TypeScript implementation of the [SuperMemo 2](https://super-memory.com/englis
 ### Install
 
 ```bash
-npm install sm-2
+npm install @kirklin/supermemo2
 ```
 
 ## License

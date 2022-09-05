@@ -1,5 +1,5 @@
 {
-  "name": "sm-2",
+  "name": "@kirklin/supermemo2",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.9.0",
