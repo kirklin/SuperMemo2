@@ -1,7 +1,7 @@
 {
   "name": "@kirklin/supermemo2",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@7.9.0",
   "description": "A TypeScript implementation of the SuperMemo 2 (SM2) algorithm for spaced based repetition algorithm",
   "author": "Kirk Lin <linkirk@163.com> (https://github.com/kirklin)",
