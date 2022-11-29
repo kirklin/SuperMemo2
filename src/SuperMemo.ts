@@ -1,7 +1,7 @@
 export interface SuperMemoItem {
-  interval: number
-  repetition: number
-  EFactor: number
+  interval: number;
+  repetition: number;
+  EFactor: number;
 }
 
 /**
@@ -24,16 +24,16 @@ export function SuperMemo(
   let nextEFactor: number;
 
   if (grade >= 3) {
-    if (item.repetition === 0)
+    if (item.repetition === 0) {
       nextInterval = 1;
-    else if (item.repetition === 1)
+    } else if (item.repetition === 1) {
       nextInterval = 6;
-    else
+    } else {
       nextInterval = Math.round(item.interval * item.EFactor);
+    }
 
     nextRepetition = item.repetition + 1;
-  }
-  else {
+  } else {
     nextInterval = 1;
     nextRepetition = 0;
   }
@@ -50,8 +50,9 @@ export function SuperMemo(
   nextEFactor
     = item.EFactor + (0.1 - (5 - grade) * (0.08 + (5 - grade) * 0.02));
 
-  if (nextEFactor < 1.3)
+  if (nextEFactor < 1.3) {
     nextEFactor = 1.3;
+  }
 
   return {
     interval: nextInterval,
